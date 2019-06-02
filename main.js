@@ -42,5 +42,5 @@ const html=matches.map(match => `
 
 matchList.innerHTML=html;
 }
-
+}
 search.addEventListener("input", () => searchStates(search.value));
